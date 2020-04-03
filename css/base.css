@@ -34,7 +34,7 @@ div {
 .comItem {
     position: relative;
     display: inline-block;
-    width: 200px;
+    width: 280px;
     height: 250px;
     padding: 0 24px;
     border-radius: 3px;
@@ -79,8 +79,8 @@ div {
 }
 
 .comItemAbstract {
-    height: calc(21px * 3);
-    font-size: 16px;
+    /* height: calc(21px * 3); */
+    font-size: 14px;
     line-height: 21px;
     text-overflow: ellipsis;
     overflow: hidden;
