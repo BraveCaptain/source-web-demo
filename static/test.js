@@ -4,10 +4,11 @@ function getPeople() {
 	var rowItemNum = 5;
 	$.ajax({
 		type: "get",
-		url: "./json/test.json",
+		url: "http://192.168.101.193:8001/gallery",
+        data:{"g_type":"人物"},
 		dataType: "json",
 		success: function(res) {
-			var list = res
+			var list = res.data
 			console.log(list)
 			for(var $i = 0; $i < list.length; $i++) {
 				if($i > 0 && $i % rowItemNum == 0) {
@@ -17,10 +18,10 @@ function getPeople() {
 				}
 				tmp +=
 				'<a class="comItem" href=##>' +
-				'<div data-attid="' + list[$i].image + '"style="background-image: url(' + list[$i].image + ');"></div>' +
+				'<div data-attid="' + list[$i].image_s + '"style="background-image: url(' + 'http://192.168.101.193:8001/image/' + list[$i].image_s + ');"></div>' +
 				'<div class="comItemDivider"></div>' +
-				'<div class="comItemName">'+list[$i].name_zh+'</div>' +
-				'<div class="comItemAbstract">'+list[$i].description+'</div>' +
+				'<div class="comItemName">'+list[$i].name_zh_s+'</div>' +
+				'<div class="comItemAbstract">'+list[$i].description_zh_seg+'</div>' +
 				'</a>';
 			}
 			tmp += '</div>';

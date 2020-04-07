@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font-weight: 400;
+    vertical-align: baseline;
+    background-color: #F5F7FA;
+}
+
+a {
+	font-size: 100%;
+    background: 0 0;
+    color: gray;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+div {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font-weight: 400;
+    vertical-align: baseline;
+    background: 0 0;
+}
+
+.comList {
+    position: relative;
+    padding-top: 24px;
+}
+
+.comItem {
+    position: relative;
+    display: inline-block;
+    width: 200px;
+    height: 250px;
+    padding: 0 24px;
+    border-radius: 3px;
+    vertical-align: middle;
+    background-color: #fff;
+    box-shadow: 0 0 8px 0 rgba(119, 133, 146, .04), 0 3px 4px 0 rgba(134, 145, 156, .04);
+    transition: all .2s ease-in-out;
+    overflow: hidden;
+}
+
+.comItem div[data-attid] {
+    width: 80px;
+    height: 90px;
+    margin: 16px auto;
+    background-size: 80px 90px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border-radius: 4px;
+}
+
+.comItemDivider {
+    width: 100%;
+    height: 1px;
+    border-radius: 3px;
+    background-color: #D5DEE7;
+}
+
+.comItemName {
+    height: 18px;
+    line-height: 18px;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 0 28px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    margin-top: 16px;
+    margin-bottom: 8px;
+    color: #020508;
+    text-align: center;
+}
+
+.comItemAbstract {
+    height: calc(21px * 3);
+    font-size: 16px;
+    line-height: 21px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: normal;
+    white-space: initial;
+    color: #697886;
+}
+
+.comItemType {
+    font-size: 12px;
+    line-height: 1.75;
+    color: #697886;
+}
