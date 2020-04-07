@@ -34,7 +34,7 @@ div {
 .comItem {
     position: relative;
     display: inline-block;
-    width: 200px;
+    width: 280px;
     height: 250px;
     padding: 0 24px;
     border-radius: 3px;
@@ -59,7 +59,7 @@ div {
 .comItemDivider {
     width: 100%;
     height: 1px;
-    border-radius: 3px;
+    border-radius: 2px;
     background-color: #D5DEE7;
 }
 
@@ -72,16 +72,16 @@ div {
     text-overflow: ellipsis;
     overflow: hidden;
     white-space: nowrap;
-    margin-top: 16px;
-    margin-bottom: 8px;
+    margin-top: 8px;
+    margin-bottom: 4px;
     color: #020508;
     text-align: center;
 }
 
 .comItemAbstract {
-    height: calc(21px * 3);
-    font-size: 16px;
-    line-height: 21px;
+    margin-top: 4px;
+    font-size: 10px;
+    line-height: 12px;
     text-overflow: ellipsis;
     overflow: hidden;
     white-space: normal;
