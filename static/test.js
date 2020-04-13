@@ -7,7 +7,7 @@ function getPeople() {
 		url: "../json/test.json",
 		dataType: "json",
 		success: function(res) {
-			var list = res
+			var list = res.datas
 			console.log(list)
 			for(var $i = 0; $i < list.length; $i++) {
 				if($i > 0 && $i % rowItemNum == 0) {
