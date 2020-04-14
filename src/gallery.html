@@ -12,16 +12,12 @@
         crossorigin="anonymous"
         charset="utf-8">
     </script>
-	<script>
-		function query(queryPage){
-			//ajax查询表格需要的数据
-			var queryPage = queryPage||1;
-			console.log("query page=" + queryPage);
-			//重新生成pageDiv
-			displayPage('#pageDiv','goPage','query',10,1,100);
-		}
-	</script>
-    <script src="/static/test.js" charset="utf-8"></script>
+	<script src="/static/test.js" charset="utf-8"></script>
+	<div class="peopleType" id="peopleType">
+		<button class="peopleTypeButton" onclick="getPeople()">政治</button>
+		<button class="peopleTypeButton" onclick="getPeople()">军事</button>
+	</div>
+	
     <div class="comList" id = "comList"></div>
 	<div id="pageDiv"></div>
 </body>

@@ -35,12 +35,13 @@ function displayPage(divObj,inputPage,js,totalPages,currentPage,totalRecords) {
     $(divObj).append(str);
 }
 
-function getPeople() {
+function getPeople(peopleSrc) {
 	var tmp = '';
 	var rowItemNum = 5;
+	var peopleSrc = peopleSrc||"../json/test.json";
 	$.ajax({
 		type: "get",
-		url: "../json/test.json",
+		url: peopleSrc,
 		dataType: "json",
 		success: function(res) {
 			var list = res.datas
@@ -62,7 +63,7 @@ function getPeople() {
 				'</a>'
 			}
 			tmp += '</div>';
-			$("#conList").empty();
+			$("#comList").empty();
 			$("#comList").append(tmp);
 		}
 	});

@@ -26,6 +26,10 @@ div {
     background: 0 0;
 }
 
+.peopleTypeButton {
+	display:inline-block;
+}
+
 .comList {
     position: relative;
     padding-top: 24px;
