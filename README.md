@@ -1,2 +1,2 @@
-1. 根目录运行: python3 -m http.server
+1. 运行: ./run.sh
 2. 访问: http://localhost:8000/
