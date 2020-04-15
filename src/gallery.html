@@ -13,15 +13,27 @@
         charset="utf-8">
     </script>
 	<script src="/static/test.js" charset="utf-8"></script>
+	
 	<div class="peopleType" id="peopleType">
-		<button class="peopleTypeButton" onclick="getPeople()">政治</button>
-		<button class="peopleTypeButton" onclick="getPeople()">军事</button>
+		<button class="peopleTypeButton" onclick="getPeople('政治', 1)">政治</button>
+		<button class="peopleTypeButton" onclick="getPeople('军事', 1)">军事</button>
+		<button class="peopleTypeButton" onclick="getPeople('商业', 1)">商业</button>
 	</div>
 	
-    <div class="comList" id = "comList"></div>
 	<div class="pageDiv" id="pageDiv" align=center>
-		<a href="javascript:void(0)" onclick="getPeople()">上一页</a>
-		<a href="javascript:void(0)" onclick="getPeople()">下一页</a>
+        <p id="page_id">1</p>
+        <p id="category_name">全部</p>
+		<a href="javascript:void(0)" onclick="getPeople('',-1)">上一页</a>
+		<a href="javascript:void(0)" onclick="getPeople('',-2)">下一页</a>
 	</div>
+
+    <div class="comList" id = "comList"></div>
 </body>
+
+
+<script>
+getPeople('', 1);
+</script>
+
+
 </html>
