@@ -1,0 +1,63 @@
+{
+  "_index" : "db_oversea",
+  "_type" : "b",
+  "_id" : "Q5284",
+  "_score" : null,
+  "_source" : {
+    "id_s" : "Q5284",
+    "name_zh_s" : "比尔·盖茨",
+    "name_en_s" : "Bill Gates",
+    "name_ot_s" : "",
+    "name_s" : "比尔·盖茨",
+    "aliases_zh_s" : [
+      "比爾·蓋茨",
+      "比爾蓋茨",
+      "比尔盖茨"
+    ],
+    "aliases_en_s" : [
+      "William Gates",
+      "William Henry Gates III",
+      "William Henry, III Gates"
+    ],
+    "description_zh_seg" : "美国企业家",
+    "description_en_seg" : "American business magnate and philanthropist",
+    "short_name_s" : [ ],
+    "category_s" : [
+      "商业"
+    ],
+    "type_s" : "人物",
+    "birth_d" : "1955-10-28 00:00:00",
+    "death_d" : "0000-01-01 00:00:00",
+    "website_s" : "http://www.thegatesnotes.com/",
+    "country_s" : "美国",
+    "gender_s" : "男",
+    "occupation_s" : [
+      "企业家",
+      "程序员",
+      "计算机科学家",
+      "慈善家",
+      "发明家",
+      "financier",
+      "bridge player",
+      "投資者",
+      "演员"
+    ],
+    "position_s" : "首席执行官",
+    "member_s" : "美国文理科学院",
+    "image_s" : "Bill Gates - World Economic Forum.jpg",
+    "logo_s" : "",
+    "facebook_s" : "BillGates",
+    "twitter_s" : "BillGates",
+    "linkedin_s" : "",
+    "insgram_s" : "thisisbillgates",
+    "youtube_s" : "UCnEiGCE13SUI7ZvojTAVBKw",
+    "zhihu_s" : "",
+    "tiktok_s" : "",
+    "weibo_s" : "gates",
+    "info_weight_i" : 26,
+    "influence_i" : 25048
+  },
+  "sort" : [
+    26
+  ]
+}
